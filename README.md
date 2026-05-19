@@ -1,128 +1,67 @@
-<<<<<<< HEAD
-# karya
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # Karya / كريا
 
-A premium next-generation ride-hailing and mobility ecosystem built with Flutter and GetX architecture.
+Premium ride-hailing and mobility ecosystem for Libya and North Africa.
 
-Karya is designed for the Libyan and North African market, combining luxury mobility experiences, real-time transportation services, fintech-inspired wallet systems, and scalable production-ready architecture.
-
----
-
-# Vision
-
-Karya aims to redefine urban mobility in Libya and North Africa by delivering:
-
-- Premium rider experience
-- Professional driver ecosystem
-- Real-time ride management
-- Smart mobility infrastructure
-- Fintech-grade wallet experience
-- High-performance scalable architecture
-
-The project focuses heavily on:
-- cinematic UI/UX
-- dark luxury design language
-- real-world usability
-- Flutter-first scalability
-- production-ready architecture
+Karya is a Flutter-based mobile application built with GetX architecture, designed to provide a luxury transportation experience for riders and a professional operational platform for drivers.
 
 ---
 
-# Features
+## Overview
 
-## Rider Features
+Karya aims to deliver a modern mobility platform inspired by premium ride-hailing, fintech, and map-first user experiences.
 
-- Real-time ride booking
-- Destination search
-- Live driver tracking
-- Active trip management
-- Ride history
-- Wallet integration
-- Saved locations
-- Notifications
-- Rating system
-- Support center
+The project currently focuses on:
+
+- Rider mode
+- Driver mode
+- Arabic RTL support
+- Dark premium UI
+- Clean scalable Flutter architecture
+- Mock services before Firebase integration
 
 ---
 
-## Driver Features
-
-- Driver online/offline mode
-- Incoming ride requests
-- Active trip management
-- Earnings dashboard
-- Weekly/monthly analytics
-- Trip history
-- Navigation support
-- Wallet & payouts
-- Driver performance system
-
----
-
-## System Features
-
-- RTL Arabic support
-- Dark premium theme
-- GetX state management
-- Modular scalable architecture
-- Mock backend support
-- Firebase-ready architecture
-- Localization support
-- Reusable design system
-- Responsive layouts
-- Glassmorphism UI system
-
----
-
-# Tech Stack
-
-## Frontend
+## Tech Stack
 
 - Flutter
 - Dart
 - GetX
-
-## State Management
-
-- GetX Controllers
-- GetX Dependency Injection
-- GetX Routing
-
-## Local Storage
-
 - GetStorage
-
-## Maps & Location
-
 - Geolocator
-
-## Architecture
-
-- Clean scalable architecture
-- Feature-based structure
-- Reusable components
-- Modular routing system
+- Material 3
+- Arabic / English localization
 
 ---
 
-# Project Structure
+## Core Features
+
+### Rider
+
+- Role selection
+- Ride booking flow
+- Destination search
+- Ride selection
+- Searching for driver
+- Active trip screen
+- Ride history
+- Wallet
+- Notifications
+- Profile and settings
+
+### Driver
+
+- Driver dashboard
+- Online / offline status
+- Incoming ride requests
+- Active trip controls
+- Earnings dashboard
+- Driver history
+- Wallet
+- Profile and settings
+
+---
+
+## Project Structure
 
 ```bash
 lib/
@@ -150,10 +89,4 @@ lib/
 │   ├── support/
 │   └── wallet/
 ├── widgets/
-│   ├── buttons/
-│   ├── cards/
-│   ├── common/
-│   ├── navigation/
-│   └── sheets/
 └── main.dart
->>>>>>> 7d5ae8a1e4a86c7099f2398803c1d95d0fd5fedb
