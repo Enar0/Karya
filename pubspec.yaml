@@ -1,6 +1,6 @@
 name: karya
-description: "Premium ride-hailing and mobility ecosystem for Libya and North Africa."
-publish_to: 'none'
+description: Premium ride-hailing and mobility ecosystem for Libya and North Africa.
+publish_to: "none"
 
 version: 1.0.0+1
 
