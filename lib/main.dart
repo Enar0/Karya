@@ -5,7 +5,7 @@ import 'package:get_storage/get_storage.dart';
 import 'core/routes/app_routes.dart';
 import 'core/theme/app_theme.dart';
 import 'core/translations/app_translations.dart';
-import 'features/home/home_screen.dart';
+import 'features/main/main_screen.dart';
 import 'features/splash/splash_screen.dart';
 
 Future<void> main() async {
@@ -34,8 +34,8 @@ class KaryaApp extends StatelessWidget {
           page: () => const SplashScreen(),
         ),
         GetPage(
-          name: AppRoutes.home,
-          page: () => const HomeScreen(),
+          name: AppRoutes.main,
+          page: () => const MainScreen(),
         ),
       ],
     );
