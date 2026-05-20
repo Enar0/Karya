@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../routes/app_routes.dart';
+import '../../../core/constants/app_colors.dart';
+import '../../../core/routes/app_routes.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -16,30 +17,35 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     Future.delayed(const Duration(seconds: 2), () {
-      Get.offNamed(AppRoutes.onboarding);
+      Get.offNamed(AppRoutes.main);
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0B1120),
+      backgroundColor: AppColors.background,
+
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
+
+          children: [
             Icon(
-              Icons.route,
-              size: 80,
-              color: Colors.blue,
+              Icons.electric_car,
+              color: AppColors.primary,
+              size: 90,
             ),
-            SizedBox(height: 20),
-            Text(
+
+            const SizedBox(height: 20),
+
+            const Text(
               'Karya',
+
               style: TextStyle(
-                color: Colors.white,
-                fontSize: 32,
+                fontSize: 36,
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
               ),
             ),
           ],
